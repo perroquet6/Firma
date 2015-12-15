@@ -6,7 +6,7 @@ public class Robotnik extends Pracownik {
 	int LIMIT = 150;
 
 	public double wyplata() {
-		wyplata = LIMIT*stawkaGodz + (liczbaGodz-LIMIT) * stawkaGodz * 1.5;
+		wyplata = LIMIT * stawkaGodz + (liczbaGodz - LIMIT) * stawkaGodz * 1.5;
 		return wyplata;
 	}
 

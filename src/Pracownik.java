@@ -4,8 +4,8 @@ abstract public class Pracownik {
 	double etat;
 
 	public Pracownik(String nazwisko, double etat) {
-		this.nazwisko=nazwisko;
-		this.etat=etat;
+		this.nazwisko = nazwisko;
+		this.etat = etat;
 	}
 
 	abstract double wyplata();
