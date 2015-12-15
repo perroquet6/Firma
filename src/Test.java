@@ -26,6 +26,7 @@ public class Test {
 		//7. jaka jest suma wszystkich Urzêdników (Robotników)
 		firma.sumaWyplat()
 		
+		
 
 	}
 
