@@ -24,7 +24,22 @@ public class Test {
 		System.out.println("liczba Urzêdników, liczba Robotników: " + tab6[0] + ", " + tab6[1]);
 		
 		//7. jaka jest suma wszystkich Urzêdników (Robotników)
-		firma.sumaWyplat()
+		double[] tab7 = firma.sumaWyplat();
+		System.out.println("Suma wyp³at Urzêdników, suma wyp³at Robotników: " + tab7[0] + ", " + tab7[1]);
+		System.out.println();
+		
+		//8.wydruk listy pracowników
+		firma.wydrukListyPrac();
+		System.out.println();
+		
+		//9. wydruk listy Urzêdników (Robotników)
+		firma.wydrukListyU();
+		System.out.println();
+		firma.wydrukListyR();
+		System.out.println();
+		
+		//10. wydruk listy p³ac
+		firma.wydrukListyPlac();
 		
 		
 
