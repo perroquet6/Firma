@@ -24,6 +24,7 @@ public class Test {
 		System.out.println("liczba Urzêdników, liczba Robotników: " + tab6[0] + ", " + tab6[1]);
 		
 		//7. jaka jest suma wszystkich Urzêdników (Robotników)
+		firma.sumaWyplat()
 		
 
 	}
